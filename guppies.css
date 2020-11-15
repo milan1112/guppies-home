@@ -1,0 +1,1044 @@
+*{
+    margin:0;
+    padding:0;
+    
+    
+}
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+.headi{
+  
+  border-right:5px red solid;
+}
+.headi h1{
+  width:100%;
+    background-color:aqua;
+    margin-top:0;
+    text-transform:uppercase;
+    padding-left:80px;
+    border-bottom:3px black solid;
+    width:2110px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:50px;
+}
+.variety3 button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+    
+    background-color:white;
+    
+}
+.variety3 h2{
+    margin:0px 0px;
+    background-size:500px 270px;
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/fish5.jpg");
+    background-repeat: no-repeat;
+   
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  .red{
+      margin-top:40px;
+      margin-left:10px;
+  }
+
+
+  .ig button{
+    width:100%;
+    font-size:20;
+    margin-top:10px; 
+  }
+  
+  .lastbtn a{
+    display:block;
+    
+  }
+  
+  .lastbtn button{
+    margin:5px 10px;
+    font-size:17px;
+  }
+
+
+
+  .line p{
+      margin:30px 0px;
+  }
+
+
+
+
+
+.menu{
+  position:fixed;
+  height:100%;
+  width:0%;
+  z-index:1;
+  top:0;
+  left:0;
+  overflow-x: hidden;
+  background-color: rgb(35, 207, 199);
+  transition: 0.30s;
+  border-right:5px black solid;
+}
+
+.menu a{
+  color:black;
+  font-size:30px;
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:40px;
+  text-decoration: none;
+  border-left:5px black solid;
+  margin-top:10px;
+  transition: 0.30s ;
+}
+
+.menu .close{
+  position:absolute;
+  top:0px;
+  right:20px;
+  font-size:30px;
+  margin-left:35px;
+  padding-top:10px;
+  border:none;
+}
+
+.menu a:hover{
+  color:black;
+  margin-left:50px;
+  border-left:5px black solid;
+}
+
+.menu .first{
+  margin-top:70px;
+}
+
+
+#open{
+  font-size:30px;
+  cursor: pointer;
+  transition: 0.50s ;
+  background-color:black;
+  color:white;
+  padding-right:10px;
+  margin-left:10px;
+  margin-top:10px;
+  padding-left:10px;
+  padding-top:8px;
+  top:0px;
+  left:0px;
+  position:fixed;
+  padding-bottom:5px;
+  border-radius:10px;
+
+}
+
+.menu .close:hover{
+  border:none;
+}
+
+.all{
+  transition: 1.50s;
+  
+}
+
+.click p{
+    margin-top:10px;
+    margin-left:10px;
+    width:250px;
+    padding-left:10px;
+    background-color:gold;
+}
+
+<!--red dragon-->
+
+.red button{
+  border-radius:10px;
+  
+}
+
+
+.pho button{
+  margin:20px;
+  border:none;
+  box-shadow: 15px 15px 25px grey;
+
+}
+
+.des p{
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.des h3{
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.des button{
+  margin-left:20px;
+  margin-top:20px;
+  
+}
+
+.hea h1{
+  padding-left:60px;
+  width:100%;
+  background-color:aqua;
+
+}
+
+
+.con button{
+  width:80%;
+  margin-left:10%;
+  margin-top:30px;
+  margin-bottom:30px;
+  padding:10px 0px;
+  font-size:20px;
+  background-color:gold;
+  border:none;
+  border-radius:10px;
+ transition:0.50s; 
+}
+
+.con button:hover{
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  padding:20px 0px;
+  margin-top:15px;
+  font-size:40px;
+}
+
+
+.afr button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.afr h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/fish7.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  
+
+.de button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.de h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/fish3.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  .pk button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.pk h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/platinum koi.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  .pa button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.pa h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/pandora.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+
+  .we button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.we h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/whiteear.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  
+
+  .mak button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.mak h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/mak.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+
+  .hp button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.hp h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/hbpastel.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+  
+
+  .eg button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.eg h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/emr.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  .bp button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.bp h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/bluepanda.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+
+  .st button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.st h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/santab.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+
+  .yw button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.yw h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/yellow.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  .bu button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.bu h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/blueunco.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  .sk button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.sk h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/snake.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  .sc button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.sc h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/singablue.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+  .class button{
+    margin-left:10px;
+    margin-top:10px;
+    padding:10px;
+    font-size:20px
+  }
+
+  .class h4{
+    margin-left:20px;
+  }
+
+  .iii{
+    margin-left:50px;
+  }
+
+  .ioi{
+    margin-right:10px;
+  }
+
+  .des h4{
+    background-color:black;
+    color:white;
+    margin-left:20px;
+    width:400px;
+    padding-left:10px ;
+    font-size:20px;
+    padding-bottom:5px ;
+    padding-top:5px ;
+  }
+
+
+  .dest {
+     margin:20px 20px;
+     
+  }
+
+  .dest button{
+    margin:10px 0px;
+    padding:5px;
+    font-size:20px;
+  }
+
+  .dest h3{
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
+  .step{
+    margin-left:20px;
+    margin-top:30px;
+
+    margin-bottom:30px;
+  }
+
+  .step img{
+    margin-left :10px;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+
+  .thanks h4{
+    margin-left:20px;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size:24px;
+  }
+
+
+
+
+.headi{
+  width:100%;
+}
+
+.des h3{
+  margin-bottom:100px;
+  background-color:black;
+  color:white;
+  width:300px;
+  padding-left:15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom:20px;
+}
+.des a{
+  text-decoration:none;
+}
+
+
+.des h2{
+  padding:10px;
+  background-color:rgb(255, 251, 0);
+  border-radius:40%;
+}
+
+.des button{
+  border:none;
+  background-color:white;
+  
+}
+
+.straight a{
+  border:1px red solid;
+  margin-left:20px;
+  padding:40px;
+  border:2px black solid;
+}
+
+.straight{
+  margin-left:20px;
+  margin-top:30px;
+  margin-bottom:50px;
+}
+
+.fifth{
+  background-image:url("img/genaral.jpg");
+  background-size:80px 100px;
+  
+}
+
+.six{
+  background-image:url("img/medic2.jpg");
+  background-size:80px 100px;
+  
+}
+
+.seven{
+  background-image:url("img/medic3.jpg");
+  background-size:80px 100px;
+  
+}
+.eight{
+  background-image:url("img/medic1.jpg");
+  background-size:80px 100px;
+  
+}
+.nine{
+  background-image:url("img/paracidol.jpg");
+  background-size:80px 100px;
+  
+}
+
+.dest button{
+  border:none;
+  background-color:gold;
+  border-radius:40%;
+  padding:20px;
+}
+
+
+
+.total {
+  background-color:rgb(189, 189, 189);
+  width:500px;
+  margin-left:20px;
+  margin-top:20px;
+  height:395px;
+  color:rgb(0, 0, 145);
+  border:5px black solid;
+}
+
+.total h1{
+  margin-top:40px;
+  margin-left:20px;
+  text-decoration:underline black;
+}
+
+.des h1{
+  margin-left:20px;
+}
+
+
+.hea h1{
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-left:100px;
+  font-size:35px;
+  font-weight:600;
+
+}
+
+.seemore{
+  margin-left:20px;
+  font-size:20px;
+ color:blue;
+
+}
+
+.seemore a{
+  text-decoration:none;
+  transition:0.50s;
+}
+
+.seemore a:hover{
+  color:black;
+  font-size:30px;
+}
+
+hr{
+  margin-top:40px;
+  
+}
+
+
+
+
+
+
+.red h2{
+  padding-left:500px;
+}
+
+
+.dest a {
+  display:block;
+}
+.dest li{
+  margin-left:20px;
+}
+
+.dest ul{
+  margin-top:20px;
+}
+
+iframe{
+  margin-left:20px;
+  margin-top:20px;
+}
+
+@media only screen and (max-device-width:770px){
+
+.headi h1{
+  font-size:100px;
+  padding-left:200px;
+}
+.click p{
+  font-size:40px;
+  width:600px;
+  padding:10px;
+}
+
+.variety3 h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  
+  width:500px;
+  background-size:800px 460px;
+  
+  border-radius:20px;
+  background-color:white;
+ 
+}
+.afr h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+  border-radius:20px;
+  background-color:white;
+}
+
+.de h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+}
+.pk h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+}
+.pa h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+}
+.we h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+}
+.bp h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+}
+.hp h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+}
+.eg h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+}
+.mak h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+}
+.bu h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+}
+.yw h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+}
+.st h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+}
+.sk h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+}
+.sc h2{
+  font-size:50px;
+  padding-top:200px;
+  padding-left:780px;
+  padding-right:0px;
+  padding-bottom:200px;
+  background-color:white;
+  width:500px;
+  background-size:800px 460px;
+  
+}
+#open{
+  padding-top:5px;
+  height:100px;
+  font-size:90px;
+  background-color:aqua;
+  color:black;
+  
+}
+.menu .first{
+  margin-top:200px;
+}
+.menu a{
+  font-size:70px;
+  padding:50px;
+  font-family:manjari;
+}
+ .menu .close{
+  font-size:150px;
+  font-weight:bolder;
+  padding-bottom:0px;
+
+}
+.ig{
+  width:150%;
+  border:none;
+  
+}
+.ig button{
+  font-size:60px;
+  width:100%;
+  border:none;
+  background-color:aqua;
+}
+.lastbtn button{
+  background-color:aqua;
+  font-size:50px;
+  margin:10px 10px;
+  width:60%;
+  border:none;
+  border-radius:10px;
+}
+hr{
+  display: none;
+}
+.class h4{
+  font-size:50px;
+
+}
+.iii button{
+  font-size:80px;
+  background-color:white;
+  
+}
+
+.hea h1{
+  font-size:70px;
+  padding-left:200px;
+}
+.pho img{
+  width:1000px;
+}
+.des {
+  font-size:40px;
+}
+.des h3{
+  width:700px;
+}
+iframe{
+  width:1200px;
+  height:600px;
+}
+.con button{
+  font-size:70px;
+  margin-left:10%;
+  width:100%;
+}
+.step{
+  width:80%;
+  margin-left:10%;
+}
+.step h1{
+  font-size:80px;
+  width:80%;
+  margin-left:10%;
+
+}
+.step p{
+  font-size:50px;
+  width:80%;
+  margin-left:10%;
+}
+.step img{
+  width:80%;
+  margin-left:10%;
+  justify-content: center;
+}
+.des h2{
+  font-size:60px;
+}
+}
+

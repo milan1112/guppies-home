@@ -1,0 +1,122 @@
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0;
+    background-color:rgb(189, 255, 233);
+}
+
+.head h1{
+  width:100%;
+  background-color:aqua;
+  margin-top:0;
+  text-transform:uppercase;
+  padding-left:80px;
+  border-bottom:3px black solid;
+  width:2110px;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size:50px;
+}
+
+.des p{
+    margin-left:20px;
+}
+
+.menu{
+    position:fixed;
+    height:100%;
+    width:0%;
+    z-index:1;
+    top:0;
+    left:0;
+    overflow-x: hidden;
+    background-color: rgb(35, 207, 199);
+    transition: 0.30s;
+    border-right:5px black solid;
+  }
+  
+  .menu a{
+    color:black;
+    font-size:25px;
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:40px;
+    text-decoration: none;
+    border-left:5px black solid;
+    margin-top:10px;
+    transition: 0.30s ;
+  }
+  
+  .menu .close{
+    position:absolute;
+    top:0px;
+    right:20px;
+    font-size:30px;
+    margin-left:35px;
+    padding-top:10px;
+    border:none;
+  }
+  
+  .menu a:hover{
+    color:black;
+    margin-left:50px;
+    border-left:5px black solid;
+  }
+  
+  .menu .first{
+    margin-top:70px;
+  }
+  
+  
+  #open{
+    font-size:35px;
+    cursor: pointer;
+    transition: 0.50s ;
+    height:90px;
+
+    margin:0px;
+    padding:10px;
+    top:0px;
+    left:0px;
+    position:fixed;
+    
+
+  }
+  
+  .menu .close:hover{
+    border:none;
+  }
+  
+
+  @media only screen and (max-device-width:770px){
+    .head h1{
+      font-size:100px;
+      padding-left:500px;
+    }
+    .des p{
+      font-size:50px;
+    }
+
+    #open{
+      padding-top:5px;
+      padding-bottom:15px;
+      font-size:90px;
+      height:170px;
+      width:100px;
+    }
+    .menu .first{
+      margin-top:200px;
+
+  }
+    .menu a{
+      font-size:70px;
+      padding:50px;
+      font-family:manjari;
+    }
+     .menu .close{
+      font-size:150px;
+      font-weight:bolder;
+      padding-bottom:0px;
+  
+    }
+  }

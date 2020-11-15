@@ -1,0 +1,664 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.headi h1{
+  width:100%;
+  background-color:aqua;
+  margin-top:0;
+  text-transform:uppercase;
+  padding-left:80px;
+  border-bottom:3px black solid;
+  width:2110px;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size:50px;
+}
+
+
+  .red{
+      margin-top:40px;
+      margin-left:10px;
+  }
+
+
+  .ig button{
+    width:100%;
+    font-size:20;
+    margin-top:10px; 
+  }
+  
+  .lastbtn a{
+    display:block;
+    
+  }
+  
+  .lastbtn button{
+    margin:5px 10px;
+    font-size:17px;
+  }
+
+
+
+  .line p{
+      margin:30px 0px;
+  }
+
+
+
+
+
+.menu{
+  position:fixed;
+  height:100%;
+  width:0%;
+  z-index:1;
+  top:0;
+  left:0;
+  overflow-x: hidden;
+  background-color: rgb(35, 207, 199);
+  transition: 0.30s;
+  border-right:5px black solid;
+}
+
+.menu a{
+  color:black;
+  font-size:25px;
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:40px;
+  text-decoration: none;
+  border-left:5px black solid;
+  margin-top:10px;
+  transition: 0.30s ;
+}
+
+.menu .close{
+  position:absolute;
+  top:0px;
+  right:20px;
+  font-size:30px;
+  margin-left:35px;
+  padding-top:10px;
+  border:none;
+}
+
+.menu a:hover{
+  color:black;
+  margin-left:50px;
+  border-left:5px black solid;
+}
+
+.menu .first{
+  margin-top:70px;
+}
+
+
+#open{
+  font-size:30px;
+  cursor: pointer;
+  transition: 0.50s ;
+  background-color:black;
+  color:white;
+  padding-right:10px;
+  margin-top:10px;
+  margin-left:10px;
+  padding-left:10px ;
+  padding-top:5px;
+  top:0px;
+  left:0px;
+  position:fixed;
+  padding-bottom:5px;
+  border-radius:10px;
+
+}
+
+.menu .close:hover{
+  border:none;
+}
+
+.all{
+  transition: 1.50s;
+}
+
+.click p{
+    margin-top:10px;
+    margin-left:10px;
+    width:250px;
+    padding-left:10px;
+    background-color:gold;
+}
+
+
+
+.red button{
+  border-radius:10px;
+  
+}
+
+
+.pho button{
+  margin:20px;
+  border:none;
+  box-shadow: 15px 15px 25px grey;
+
+}
+
+.des p{
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.des h3{
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.des button{
+  margin-left:20px;
+  margin-top:20px;
+  
+}
+
+.hea h1{
+  padding-left:60px;
+  width:100%;
+  background-color:aqua;
+
+}
+
+
+.con button{
+  width:80%;
+  margin-left:10%;
+  margin-top:30px;
+  margin-bottom:30px;
+  padding:10px 0px;
+  font-size:20px;
+  background-color:gold;
+  border:none;
+  border-radius:10px;
+}
+
+
+.food1 button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.food1 h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:0px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/medic1.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+.afr button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.afr h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:0px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/medic2.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  
+
+.de button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.de h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:0px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/medic3.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  .pk button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.pk h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:0px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/snilremover.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  .pa button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.pa h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:0px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/genaral.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+
+  .we button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.we h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:0px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/paracidol.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+
+  .ha button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.ha h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:0px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/snailremover.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+  .mc button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.mc h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:0px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/algecide.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+
+  
+  .md button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.md h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:100px;
+    padding-left:0px;
+    padding-right:40px;
+    padding-bottom:100px;
+    background-image: url("../my\ guppies/img/phytocarb.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 270px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  .ms button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.ms h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:200px;
+    padding-left:0px;
+    padding-right:40px;
+    padding-bottom:200px;
+    background-image: url("../my\ guppies/img/aquaticremedy.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 470px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+  .my button{
+    width:100%;
+    border:none;
+    margin-left:20px;
+}
+.my h2{
+    margin:0px 0px;
+
+    border:none;
+    padding-top:250px;
+    padding-left:0px;
+    padding-right:40px;
+    padding-bottom:250px;
+    background-image: url("../my\ guppies/img/melafix.jpg");
+    background-repeat: no-repeat;
+    background-size:500px 470px;
+    background-color:white;
+    text-transform:uppercase;
+    font-family:"Arial Black",Gadget,sans-serif;
+  }
+
+  .red h2{
+    padding-left:500px;
+  }
+  @media only screen and (max-device-width:770px){
+
+    .headi h1{
+      font-size:100px;
+      padding-left:200px;
+    }
+    .click p{
+      font-size:40px;
+      width:600px;
+      padding:10px;
+    }
+    
+    .food1 h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      
+      width:500px;
+      background-size:800px 460px;
+      
+      border-radius:20px;
+      background-color:white;
+     
+    }
+    .afr h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+      border-radius:20px;
+      background-color:white;
+    }
+    
+    .de h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+    }
+    .pk h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:30px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+    }
+    .pa h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+    }
+    .we h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+    }
+    .ha h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+    }
+    .mc h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+    }
+    .ms h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+    }
+    .md h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+    }
+    .my h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+    }
+    .yw h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+    }
+    .st h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+    }
+    .sk h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+    }
+    .sc h2{
+      font-size:50px;
+      padding-top:200px;
+      padding-left:780px;
+      padding-right:0px;
+      padding-bottom:200px;
+      background-color:white;
+      width:500px;
+      background-size:800px 460px;
+      
+    }
+    #open{
+      padding-top:5px;
+      height:100px;
+      font-size:90px;
+      background-color:aqua;
+      color:black;
+      
+    }
+    .menu .first{
+      margin-top:200px;
+    }
+    .menu a{
+      font-size:70px;
+      padding:50px;
+      font-family:manjari;
+    }
+     .menu .close{
+      font-size:150px;
+      font-weight:bolder;
+      padding-bottom:0px;
+    
+    }
+    .ig{
+      width:150%;
+      border:none;
+      
+    }
+    .ig button{
+      font-size:60px;
+      width:100%;
+      border:none;
+      background-color:aqua;
+    }
+    .lastbtn button{
+      background-color:aqua;
+      font-size:50px;
+      margin:10px 10px;
+      width:60%;
+      border:none;
+      border-radius:10px;
+    }
+    hr{
+      display: none;
+    }
+    .class h4{
+      font-size:50px;
+    
+    }
+    .iii button{
+      font-size:80px;
+      background-color:white;
+      
+    }
+    }
