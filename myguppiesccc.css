@@ -144,7 +144,7 @@ nav a:hover{
   padding-left:600px;
   padding-right:20px;
   padding-bottom:100px;
-  background-image: url("../my\ guppies/img/fish1.jpg");
+  background-image: url("./img/fish1.jpg");
   background-repeat: no-repeat;
   background-size:500px 270px;
   background-color:white;
@@ -166,7 +166,7 @@ nav a:hover{
   padding-left:590px;
   padding-right:40px;
   padding-bottom:100px;
-  background-image: url("../my\ guppies/img/fish3.jpg");
+  background-image: url("./img/fish3.jpg");
   background-repeat: no-repeat;
   background-size:500px 270px;
   background-color:white;
@@ -184,7 +184,7 @@ nav a:hover{
   padding-left:582px;
   padding-right:40px;
   padding-bottom:100px;
-  background-image: url("../my\ guppies/img/fish5.jpg");
+  background-image: url("./img/fish5.jpg");
   background-repeat: no-repeat;
   background-size:500px 270px;
   background-color:white;
@@ -198,7 +198,7 @@ nav a:hover{
   padding-left:560px;
   padding-right:15px;
   padding-bottom:100px;
-  background-image: url("../my\ guppies/img/fish7.jpg");
+  background-image: url("./img/fish7.jpg");
   background-repeat: no-repeat;
   background-size:500px 270px;
   background-color:white;
@@ -271,7 +271,7 @@ nav a:hover{
   padding-bottom:250px;
   padding-top:15px;
   padding-left:15px;
-  background-image:url("../my\ guppies/img/tips.jpg");
+  background-image:url("./img/tips.jpg");
   background-repeat: no-repeat;
   background-color: white;
   border:none;
