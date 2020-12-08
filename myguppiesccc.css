@@ -850,12 +850,10 @@ background-size:2180px 790px;
   background-color:rgb(189, 255, 252);
 
 }
-.allsection{
-  color:white;
-}
+
 .toppart{
   margin-top:110px;
-  background-image:url(./img/lapbackground.jpg);
+  background-image:url(./img/frame123.jpg);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: center;
@@ -882,42 +880,43 @@ background-size:2180px 790px;
 
 @media only screen and (max-device-width:770px){
   
-    .allsection{
-      margin-top:200px;
-     
-      width:150%;
-      height:750px;
-      background-image:url(./img/lapbackground.jpg);
-      background-repeat: no-repeat;
-      background-size:1000px 600px;
-      background-position-x: right;
-      background-position-y: bottom;
-      
-    }
-
-    .section{
-      
-      width:30%;
-      
-      padding-top:700px;
-      padding-bottom:100px;  
-      height:400px;
-      
-
-    }
-  .section h1{
-    background-color:white;
-    font-size:90px;
-    padding-left:50px;
-    font-family:purisa,Bold oblique;
-    font-weight:900;
-    color:black
+  
+  .part{
+    display: none;
   }
   .toppart{
-    display:none;
+    display: none;
+  }
+  .allsection{
+    color:black;
+    margin-top:200px;
+    display: inline;
+
+  }
+  .intro{
+    background-image:url("./img/frame1234.jpg");
+    background-repeat: no-repeat;
+    background-position-x:bottom;
+    background-position-y:center;
+    background-size:1500px 1950px;
+    height:1400px;
+    width:150%;
+    margin-top:200px;
+    border:1px red solid;
+  }
+  .intro1{
+    margin-left:100px;
+    
+    
+  }
+  .intro1 h1{
+    font-family:purisa ,Bold oblique;
+    font-size:150px;
+    margin-left:0px;
+    
   }
   .heade{
-    margin-top:600px;
+    margin-top:100px;
     width:140%;
     height:550px;
     background-color:white;
@@ -1093,15 +1092,19 @@ background-size:2180px 790px;
     font-size:60px;
     width:100%;
     border:none;
-    background-color:aqua;
+    background-color:rgb(216, 217, 218);
+    cursor: pointer;
   }
   .lastbtn button{
-    background-color:aqua;
+    background-color:rgb(216, 217, 218);
     font-size:50px;
     margin:10px 10px;
     width:60%;
     border:none;
-    border-radius:10px;
+   padding:10px;
+    margin:30px;
+    font-family:chilanka;
+    cursor: pointer;
   }
   
   .gta button{
