@@ -875,12 +875,19 @@ background-size:2180px 790px;
   font-family:purisa ,Bold oblique;
   font-size:70px;
 }
-
+.intro1 h1{
+  visibility: hidden;
+}
+.section h1{
+  visibility: hidden;
+}
 
 
 @media only screen and (max-device-width:770px){
   
-  
+  .intro1 h1{
+    visibility:visible;
+  }
   .part{
     display: none;
   }
@@ -902,7 +909,7 @@ background-size:2180px 790px;
     height:1400px;
     width:150%;
     margin-top:200px;
-    border:1px red solid;
+    
   }
   .intro1{
     margin-left:100px;
